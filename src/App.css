@@ -1,14 +1,5 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
+.isis {
+  text-align: center; 
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -19,15 +10,21 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-gif {
+  margin: 10px;
+  height: 50vmin;
+  pointer-events: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  width: 150px;
+  height: 50px;
+  background-color: burlywood;
+  border: solid 2px rgb(135, 1, 1);
+  color: rgb(135, 1, 1);
+  border-radius: 10px;
+  box-shadow: 5px 3px rgb(165, 85, 42);
+  font-size: 30px;
+  font-weight: bolder;
+  outline: none;
 }
